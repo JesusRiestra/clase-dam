@@ -64,4 +64,8 @@ public class Alumno {
         }
         return valorADevolver;
     }
+    
+    public String devuelveDetalles() {
+        return "" + nombre + " (" + numeroMatricula + ") - " + edad + " años";
+    }
 }
